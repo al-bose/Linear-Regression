@@ -1,0 +1,10 @@
+Please make sure your system is running python version 3 and has pandas, numpy, and sci-kit learn libraries 
+
+How to run:
+In the folder containing the code please place test and training data as csv files called "linear-regression-test.csv" and "linear-regression-train.csv"
+Please create a folder named "Output"
+Run python linearRegression.py arg1 arg2 where arg1 is either 0:closed form method, 1:batch gradient descent, 2:stochastic gradient descent and arg 2 is either 0: non-normalized, 1:normalized input
+
+The output will be in the output folder
+
+Please not that for the non-normalized stochastic gradient descent to work you must change the learning rate by reducing it by a factor of 100 to allow the solution to converge
